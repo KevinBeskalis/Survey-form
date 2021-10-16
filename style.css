@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: #B0DAF1;
+    color: #3E1929;
+}
+header {
+    text-align: center;
+    color: #3E1929;
+    text-shadow: 2px 2px 1px #845A6D;
+    font-size: 24px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+form {
+    background: #8D91C7;
+    width: 600px;
+    padding: 20px;
+    align-content: center;
+}
+input, #dropdown, #features {
+    margin: 10px;
+    margin-right: 0px;
+    width: 50%;
+    height: 25px;
+}
+@media screen and (max-width: 600px) {
+    input, #dropdown, #features {
+        margin: 10px;
+        margin-right: 0px;
+        width: 40%;
+        height: 25px;
+    }
+}
+textarea {
+    width:75%;
+}
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 50px 20px 50px;
+    font-size: 28px;
+    background-color: #845A6D;
+}
+button:hover {
+    background-color: #3E1929;
+    color:  #6E75A8;
+}
